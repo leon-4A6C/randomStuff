@@ -2,3 +2,25 @@ body{
   margin: 0;
   background: #eee;
 }
+.graphContainer{
+  min-width: 1em;
+  min-height: 1em;
+  background: #abc;
+  padding: 1em 0 0.5em 0;
+}
+.graphElementBar{
+  width: 10em;
+  background: #acf;
+  margin: 0 0 1em 0;
+  transition: all 300ms;
+  padding: 1em 0;
+}
+.graphElementBar:hover{
+  background: #7aaccf
+}
+.graphElementName{
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #eff;
+}
