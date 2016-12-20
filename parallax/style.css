@@ -1,0 +1,9 @@
+#par {
+  width: 100%;
+  height: 20em;
+  border: 1px solid black;
+  background-image: url("img/background.jpg");
+  background-size: 105%;
+  background-repeat: no-repeat;
+  transition: background-position 100ms;
+}

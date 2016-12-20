@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.col {
+    float: left;
+    min-height: 2em;
+    min-width: 2em;
+    border: 1px solid black;
+}
+.row::after {
+    content: "new";
+    clear: both;
+    display: table;
+}

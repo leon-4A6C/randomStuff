@@ -8,7 +8,6 @@ function Graph(name, graphContainer) {
   }
   graphAmount++;
 }
-
 function makeGraphContainer(){
   document.body.innerHTML += "<div id='graphContainer"+containerAmount+"' class='graphContainer'></div>"
 }
